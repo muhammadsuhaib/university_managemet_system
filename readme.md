@@ -10,11 +10,12 @@ University Management System
 $ git clone https://github.com/muhammadsuhaib/university_managemet_system/edit/master/readme.md
 ```
 ```
-$ cd osums
+$ cd university_management_system
 ```
 ```
 $ mv .env.example .env
 ```
+
 **Change configuration in .env according your need and create Database**
 ```
 $ composer install
@@ -27,6 +28,10 @@ $ php artisan db:seed
 ```
 
 **Give write permission to storage and bootstrap/cache directory**
+
+```
+$ php artisan key:generate
+```
 
 ```
 $ php artisan serve
