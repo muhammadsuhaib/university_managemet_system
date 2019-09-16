@@ -10,7 +10,7 @@ Open Source University Management System
 $ git clone https://github.com/muhammadsuhaib/university_managemet_system/edit/suhaib/readme.md
 ```
 ```
-$ cd osums
+$ cd university management system
 ```
 ```
 $ mv .env.example .env
